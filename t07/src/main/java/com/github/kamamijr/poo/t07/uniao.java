@@ -1,16 +1,19 @@
-package t07.src.main.java.com.github.kamamijr.poo.t07;
+package com.github.kamamijr.poo.t07;
 
-public class Uniao {
-    private ArrayList filhos;
-    private Pessoa parceiros[2];
+import java.util.List;
+import java.util.Objects;
 
-    public void novoFilho(Pessoa P){
-        filhos.add(p);
+public class uniao {
+    private List<Pessoa> filhos;
+    private Pessoa[] parceiros;
+
+    public void novoFilho(Pessoa filho) {
+        filhos.add(filho);
     }
 
-    public Uniao(Pessoa a, Pessoa b){
-        parceiros[0] = a;
-        parceiros[1] = b;
+    public uniao(Pessoa a, Pessoa b) {
+        Objects.requireNonNull(a);
+        Objects.requireNonNull(b);
+        parceiros = new Pessoa[] { a, b };
     }
 }
-

@@ -1,7 +1,6 @@
 package com.github.kamamijr.poo.t07;
 
-public class Convidado{
-
+public class Livro{
+    
 }
-
 
