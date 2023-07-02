@@ -1,10 +1,9 @@
 package com.github.kamamijr.poo.t08;
-
-public class Pessoa{
-    public Empresa empregador;
+class Pessoa{
+    public empresa empregador;
 }
 
-public class Empresa{
+public class empresa{
     public Pessoa empregado;
 
 }

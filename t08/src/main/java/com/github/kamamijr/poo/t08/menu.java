@@ -1,21 +1,21 @@
 package com.github.kamamijr.poo.t08;
 
-public class Janela{
+class Janela{
 
 }
 
-public class ElementoInteracao{
+class ElementoInteracao{
 private Janela window;
 }
 
-public class Menu extends ElementoInteracao{
+public class menu extends ElementoInteracao{
 
 }
 
-public class Botao extends ElementoInteracao{
+class Botao extends ElementoInteracao{
 
 }
 
-public class BarraRolagem extends ElementoInteracao{
+ class BarraRolagem extends ElementoInteracao{
 
 }

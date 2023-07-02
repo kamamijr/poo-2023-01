@@ -1,12 +1,12 @@
 package com.github.kamamijr.poo.t08;
 
 class Endereco{
-    private string logradouro;
-    private string cep;
-    private string bairro;
+    private String logradouro;
+    private String cep;
+    private String bairro;
 }
 
-class Escola{
+public class escola{
     private Endereco endereco;
      private int capacidadeAlunos;
 }

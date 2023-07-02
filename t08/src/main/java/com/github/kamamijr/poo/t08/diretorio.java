@@ -1,9 +1,9 @@
 package com.github.kamamijr.poo.t08;
 
-public class Diretorio{
+public class diretorio{
     Usuario dono;
 }
 
-public class Usuario{
-   Diretorio autorizado;
+class Usuario{
+   diretorio autorizado;
 }

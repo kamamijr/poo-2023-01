@@ -1,17 +1,17 @@
 package com.github.kamamijr.poo.t08;
 
-public class Permissao{
+public class permissao{
 }
 
-public class Usuario{
+class usuario{
 }
 
-public class Arquivo{
-private Permissao permissao;
+class Arquivo{
+private permissao permissao;
 }
 
-public class Grupo{
-private Permissao permissao;
-private Usuario[] usuarios;
+class Grupo{
+private permissao permissao;
+private usuario[] usuarios;
 }
 
