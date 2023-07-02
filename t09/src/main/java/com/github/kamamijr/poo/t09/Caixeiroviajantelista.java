@@ -6,11 +6,18 @@ class Caixeiro{
 
 class Viagem{
     private Cidade[] cidades;
+    private Pedidos[] pedidos;
 }
+
 class Cidade{
     private Armazém[] armazéns;
 }
 
- class Armazém{
+class Armazém{
+    private Pedidos[] pedidos;
+}
+
+class Pedidos{
+
 }
 

@@ -1,9 +1,9 @@
-package java.com.github.kamamijr.poo.t09;
+package com.github.kamamijr.poo.t09;
 
-public class Usuario extends Pessoa{
+public class usuario extends Pessoa{
 
 }
 
-public class Pessoa{
+class Pessoa{
 
 }

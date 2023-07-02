@@ -1,11 +1,11 @@
-package java.com.github.kamamijr.poo.t09;
+package com.github.kamamijr.poo.t09;
 
-public class Pessoa{
-    private string nome;
+class Pessoa{
+    private String nome;
     private int idade;
     private Habito[] habitos;
 }
 
 public class Habito {
-      private string descricao;
+      private String descricao;
 }

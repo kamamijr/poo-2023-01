@@ -1,14 +1,14 @@
-package java.com.github.kamamijr.poo.t09;
+package com.github.kamamijr.poo.t09;
 
-public class Conteiner extends Elemento{
-    private Conteiner[] conteineres;
+public class conteiner extends Elemento{
+    private conteiner[] conteineres;
     private Objeto[] objetos;
 }
 
-public class Elemento{
+class Elemento{
 
 }
 
-public class Objeto extends Elemento{
+class Objeto extends Elemento{
 
 }
