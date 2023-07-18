@@ -8,7 +8,7 @@ class ElementoInteracao{
 private Janela window;
 }
 
-public class menu extends ElementoInteracao{
+public class Menu extends ElementoInteracao{
 
 }
 

@@ -1,9 +1,9 @@
 package com.github.kamamijr.poo.t09;
 
-class Elefante extends mamifero{
+class Elefante extends Mamifero {
 
 }
 
-public class mamifero{
+public class Mamifero {
 
 }

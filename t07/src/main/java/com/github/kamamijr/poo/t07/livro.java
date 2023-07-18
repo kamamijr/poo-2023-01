@@ -1,6 +1,6 @@
 package com.github.kamamijr.poo.t07;
 
-public class Livro{
+public class Livro {
     
 }
 

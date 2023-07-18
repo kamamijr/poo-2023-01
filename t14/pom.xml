@@ -4,14 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <properties>
-        <nome.projeto>exemplo</nome.projeto>
+        <nome.projeto>t14</nome.projeto>
 
         <java.version>17</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <project.mainClass>com.github.kyriosdata.poo.t07.application.console.ProgramaCalendario</project.mainClass>
+        <project.mainClass>com.github.kamamijr.poo.t14.application.console.matriz</project.mainClass>
 
         <tools.dir>${project.basedir}/tools</tools.dir>
 
@@ -52,8 +52,8 @@
         <version>3.0.0</version>
     </parent>
 
-    <groupId>com.github.kyriosdata</groupId>
-    <artifactId>exemplo</artifactId>
+    <groupId>com.github.kamamijr</groupId>
+    <artifactId>t14</artifactId>
     <packaging>jar</packaging>
     <version>1.0.3</version>
 
@@ -66,14 +66,14 @@
         necessidades específicas do projeto em questão.
     </description>
 
-    <url>https://github.com/kyriosdata/${nome.projeto}</url>
+    <url>https://github.com/kamamijr/${nome.projeto}</url>
 
     <organization>
         <name>Instituto de Informática (UFG) - Fábrica de Software</name>
         <url>http://www.inf.ufg.br</url>
     </organization>
 
-    <inceptionYear>2016</inceptionYear>
+    <inceptionYear>2023</inceptionYear>
 
     <licenses>
         <license>
@@ -81,7 +81,7 @@
             </name>
             <comments>A atribuição deve conter, explicitamente, a seguinte
                 linha:
-                Copyright (c) 2016. Fábrica de Software - Instituto de
+                Copyright (c) 2023. Fábrica de Software - Instituto de
                 Informática (UFG)
             </comments>
             <url>https://creativecommons.org/licenses/by/4.0/</url>
@@ -90,9 +90,9 @@
 
     <developers>
         <developer>
-            <id>kyriosdata</id>
-            <name>Fábio Nogueira de Lucena</name>
-            <email>fabio@inf.ufg.br</email>
+            <id>kamamijr</id>
+            <name>Mikael Borges de Oliveira e Silva Junior</name>
+            <email>mikael_junior@discente.ufg.br</email>
             <organization>Instituto de Informática (UFG)</organization>
             <organizationUrl>http://www.inf.ufg.br</organizationUrl>
         </developer>

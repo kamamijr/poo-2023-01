@@ -11,8 +11,4 @@ public class Permuta {
             }
         }
     }
-
-    public static void main(String[] args) {
-        permuta("", "abc");
-    }
 }

@@ -1,11 +1,11 @@
 package com.github.kamamijr.poo.t09;
 
-public class circulo{
+public class Circulo {
     private float x;
     private float y;
     private float raio;
 
-    public circulo(float x, float y){
+    public Circulo(float x, float y){
 
     }
 }

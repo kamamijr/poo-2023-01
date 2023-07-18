@@ -1,4 +1,4 @@
-package main.java.com.github.kamamijr.poo.t14;
+package com.github.kamamijr.poo.t14;
 
 class Matriz extends Elemento {
     // Implementação da classe Matriz

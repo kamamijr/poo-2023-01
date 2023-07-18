@@ -1,6 +1,6 @@
 package com.github.kamamijr.poo.t09;
 
-class Pessoa{
+class Pessoa {
     private String nome;
     private int idade;
     private Habito[] habitos;

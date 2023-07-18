@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package com.github.kamamijr.poo.t11;
 
 import java.util.Date;
@@ -43,59 +42,8 @@ class Periodo {
     public void setDataFinal(Data dataFinal) {
         this.dataFinal = dataFinal;
     }
-}
 
-
-
-=======
-package com.github.kamamijr.poo.t11;
-
-import java.util.Date;
-
-class Data {
-    private Date data;
-
-    public Data(Date data) {
-        this.data = data;
-    }
-
-    public Date getData() {
-        return data;
-    }
-
-    public void setData(Date data) {
-        this.data = data;
-    }
-}
-
-class Periodo {
-    private Data dataInicial;
-    private Data dataFinal;
-
-    public Periodo(Data dataInicial, Data dataFinal) {
-        this.dataInicial = dataInicial;
-        this.dataFinal = dataFinal;
-    }
-
-    public Data getDataInicial() {
-        return dataInicial;
-    }
-
-    public void setDataInicial(Data dataInicial) {
-        this.dataInicial = dataInicial;
-    }
-
-    public Data getDataFinal() {
-        return dataFinal;
-    }
-
-    public void setDataFinal(Data dataFinal) {
-        this.dataFinal = dataFinal;
-    }
-}
-
- class Main {
-    public static void main(String[] args) {
+    public static void periodo(String[] args) {
         Date dataInicial = new Date();
         Date dataFinal = new Date();
 
@@ -112,4 +60,4 @@ class Periodo {
     }
 }
 
->>>>>>> fb486169b35d38609771a593e7dcfb2bcebef716
+

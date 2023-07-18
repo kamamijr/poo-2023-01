@@ -1,15 +1,15 @@
 package com.github.kamamijr.poo.t09;
 
-class Cliente{
-    private transacao[] transacoes;
+class Cliente {
+    private Transacao[] transacoes;
 }
 
-public class transacao{
+public class Transacao {
     private Cliente cliente;
     private Fornecedor fornecedor; 
 }
 
- class Fornecedor{
-    private transacao[] transacoes;
+ class Fornecedor {
+    private Transacao[] transacoes;
 }
 

@@ -1,5 +1,5 @@
 package com.github.kamamijr.poo.t07;
 
-public class aluno {
+public class Aluno {
     private Curso[] curso;
 }

@@ -1,6 +1,6 @@
 package com.github.kamamijr.poo.t07;
 
-public class Prova{
+public class Prova {
     private byte numQuestoes;
 
     public byte getNumQuestoes() {
